@@ -1,20 +1,32 @@
+:root {
+  --heading-color: #454b3c;
+  --default-font: "Quicksand", sans-serif;
+}
+
 body {
-  padding: 20px;
+  margin: 0 auto;
 }
 
 h1 {
   font-family: "Homemade Apple", cursive;
-  font-size: 32px;
-}
-
-h2 {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 700;
-  font-size: 22px;
+  font-size: 36px;
+  padding-bottom: 10px;
+  color: var(--heading-color);
 }
 
 p {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 500;
+  font-family: var(--default-font);
+  font-weight: 400;
   font-size: 16px;
+}
+
+.homepage-hero {
+  background: #eaeee5;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px 50px;
+}
+
+.title-detail {
+  font-size: 18px;
 }
