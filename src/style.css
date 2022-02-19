@@ -37,11 +37,19 @@ img {
   padding: 10px;
 }
 
+.navbar-brand {
+  font-family: "Homemade Apple", cursive;
+}
+
+.navbar-custom {
+  background-color: var(--accent-color) !important;
+}
+
 .homepage-hero {
   background: var(--accent-color);
   text-align: center;
   margin: 0 auto;
-  padding: 100px 50px;
+  padding: 150px 50px 100px;
 }
 
 .homepage-sections {
@@ -67,16 +75,12 @@ img {
 
 @media (max-width: 900px) {
   .homepage-hero {
-    padding: 50px 25px;
+    padding: 75px 25px 50px;
     margin-bottom: 50px;
   }
 
   .section-description {
     text-align: center;
     padding-bottom: 50px;
-  }
-
-  i {
-    display: none;
   }
 }
