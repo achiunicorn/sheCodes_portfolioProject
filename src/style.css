@@ -92,14 +92,22 @@ img {
   margin-top: 50px;
 }
 
+.contact-section {
+  text-align: center;
+  margin-top: 50px;
+  background-color: var(--accent-color);
+  padding: 20px;
+}
+
+.contact-section a {
+  font-size: 24px;
+}
+
 .projects-section {
   max-width: 900px;
   margin: 0 auto;
   padding-top: 10px;
   text-align: center;
-}
-
-.pangolin-project {
 }
 
 @media (max-width: 900px) {
@@ -111,6 +119,10 @@ img {
   .section-description {
     text-align: center;
     padding-bottom: 50px;
+  }
+
+  .about-section {
+    text-align: center;
   }
 
   .image-row {
