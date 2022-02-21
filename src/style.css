@@ -148,4 +148,9 @@ footer {
   .projects-section {
     max-width: 75%;
   }
+
+  footer {
+    text-align: center;
+    font-size: 14px;
+  }
 }
