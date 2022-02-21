@@ -46,8 +46,17 @@ img {
   border: 1px solid var(--accent-color);
 }
 
+.navbar {
+  margin-inline: 10px;
+}
+
 .navbar-brand {
   font-family: "Homemade Apple", cursive;
+  font-size: 24px;
+}
+
+.nav-item {
+  padding: 0px 10px;
 }
 
 .navbar-custom {
